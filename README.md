@@ -30,7 +30,7 @@ input video called `x.mp4`):
 ffmpeg -y x.mp4 -codec copy -bsf:v h264_mp4toannexb -map 0 -f segment -segment_time 10 -segment_format mpegts -segment_list x.m3u8 -segment_list_type m3u8 "frag%d.ts"
 ```
 
-Now you can point your config file (more on which later) at any assets you've created or
+Now you can point your config file (more on which later) at any assets you've created or downloaded
 and you're all set.
 
 ## Python Environment
