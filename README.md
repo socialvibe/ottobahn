@@ -45,6 +45,8 @@ command:
 pip install -r requirements.txt
 ```
 
+*note: You should be using a python3 version of pip too. Simply use `python3 get-pip.py` when installing pip.
+
 ## Config
 
 Ottobahn requires a config file to control some aspects of how it will render live streams.
